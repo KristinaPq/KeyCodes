@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top,#d8f1ff 0%, #8095c4 100%); /*Линейный градиент linear-gradient(). Рис. 1. Линия градиента, начальная и конечная точки и угол градиента. Линейный градиент создается с помощью двух и более цветов, для которых задано направление, или линия градиента . ... с помощью ключевых слов to top , to right , to bottom , to left , которые соответствуют углу градиента, равному 0deg , 90deg , 180deg и 270deg соответственно. div{height: 200px;background:linear-gradient(to right, #F6EFD2, #CEAD78);} CSS. ... Точки остановки задаются в % , где 0% — начальная точка, 100% — конечная точка, например: div{height: 200px;background:linear-gradient(to top, #E4AF9D 20%, #E4E4D8 50%, #A19887 80%);} */
+}
+.KC, input {
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #fafafa;
+}
+.KC {
+    width: 700px;
+    padding-top: 20px;
+    margin: 10% auto auto auto;   
+    text-align: center;     
+    background-color: white;
+}
+input {
+    width: 200px;
+    height: 45px;
+    margin: 10% auto 10% auto;
+    padding: 10px 15px;
+    outline: none;
+}
